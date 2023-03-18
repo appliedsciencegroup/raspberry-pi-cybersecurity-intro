@@ -1,9 +1,7 @@
-# 004 - Raspberry Pi First Boot
-
+# 004 - Raspberry Pi First Boot (Headless)
 ![CyberPi](../cyber-pi-github-profile.png)
 
-
-There's lots of different ways to get a Raspberry Pi up and running. We're going to do a 'headless' installation. That means you don't need to connect it to a monitor, mouse or keyboard. We'll be using two network protocols called `SSH` and `VLC` for this one. These are two different ways for sending information over the network.
+There are many ways to get a Raspberry Pi up and running, but for this tutorial, we will be doing a 'headless' installation, which means you won't need to connect it to a monitor, mouse, or keyboard. Instead, we'll be using two network protocols: SSH and VNC. These are two different ways of sending information over the network.
 
 - `Network Protocols` are special formats that computers understand to send and receive information.
 - `SSH` is a way of securely transmitting text information
@@ -11,40 +9,42 @@ There's lots of different ways to get a Raspberry Pi up and running. We're going
 
 ## Installing Raspian for your first time 
 
-1. Download the latest OS image https://www.raspberrypi.org/downloads/raspbian/
-    - Raspbian Buster with desktop and recommended software
-    - Download the latest version
+1. After you have flashed your Raspberry Pi using the official [Raspberry Pi Burner](https://www.raspberrypi.com/software/)
+2. Enable SSH by creating a blank files named `ssh` in the **root** of your burned card.
+3. Create a new file called `wpa_supplicant.conf` and then copy and paste the following text into it. Make sure to update it with your real wifi information first.
 
-2. Using Etcher to Flash Raspian to your SD Card
-    + Open Balena Etcher
-    + Select the image from your download
-    + Select the target microSD to flash
-    + Press Flash
-
-<img src="./gifs/balena-flash-raspberry-pi.gif" width="70%" height="">
-
-3. Enable SSH
-    - Open sublime text and create a new file that is totally blank
-    - Save it as "ssh" with no file extension
-> This will enable Secure Socket Shell by default when you first boot up your Raspberry Pi
-
-5. Create a new WiFi file which looks like this. Save it as "wpa_supplicant.conf"
-``` 
+```text
+# Set the country code to US for wireless regulations
 country=US
+
+# Set the directory where the wpa_supplicant control interface will be created 
+# and set the group ownership to netdev
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+
+# Allow wpa_supplicant to modify the configuration file
 update_config=1
 
+# Configure a network block for a wireless network with the given SSID and PSK
 network={
-    ssid="your_internet"
-    psk="your_password"
+    ssid="your_internet"   # Replace "your_internet" with the actual SSID of your wireless network
+    psk="your_password"    # Replace "your_password" with the actual pre-shared key (password) of your wireless network
 }
 ```
 
-> Where it says SSID="your_interenet" you should enter in the exact spelling of your Wireless Network Name. Where it says PSK= "your_password" you should put your Wireless Password in. This will allow the Raspberry Pi to turn on and immediately connect to your network.
+4. Safely eject the microSD, and insert it into your raspberry pi.
+5. Plug it in, and wait a few minutes (the first boot always takes longer)
+6. Once we can see the Raspberry Pi on your network. Copy and paste the following command in the terminal, and `masscan` will help you determine what it's IP address is. Run the following command:
 
-- `SSID` stands for Secure Set Identifier, but it's really just the name of your wireless network.
-- `PSK` is your 'pre-shared key'. It's the password to your wireless.
-- `.conf` is a configuraition file. ____
+```
+sudo masscan -p22 --rate=1000 192.168.1.0/24 --open-only | awk '/22\/tcp/{print $4}' | while read -r ip; do host "$ip"; done | awk '/has address/ {print $4, $NF}' || echo "No Raspberry Pi devices found on the network."
+```
+
+
+
+
+
+
+
 
 6. Open your microSD drive and place both those files in there. Then safely eject the disk.
 >This will enable SSH and give it your wifi
