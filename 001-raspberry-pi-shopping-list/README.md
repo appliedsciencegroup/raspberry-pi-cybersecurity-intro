@@ -8,14 +8,18 @@ Whenever possible! Please try to buy this from Adafruit. They developed all the 
 
 ## **Hardware**
 
-1. [Raspberry Pi 4](https://www.adafruit.com/product/4296) or Raspberry Pi 3 B+
-This is the SBC (single board computer) that we are using for this project.
+- [Raspberry Pi 4](https://www.adafruit.com/product/4296) or Raspberry Pi 3 B+
 
+This is the SBC (single board computer) that we are using for this project.
 <img src="./images/raspberry-pi-3bplus.png" width="200" height="150">
 
-2. [32GB MicroSD Card](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN) 
+- [32GB MicroSD Card](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN) 
 The MicroSD card works for your Raspberry Pi in the same way that a hard drive does for your computer. They are priced differently mainly based on size, rather than speed. Since you don't need a lot of storage, we recommend buying a fast card (Class 10, U3) and between 8GB to 32GB.
 <img src="./images/sandisk-extreme-pro-32gb.png" width="200" height="150">
+
+
+
+
 
 
 
