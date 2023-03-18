@@ -3,15 +3,12 @@
 **Raspberry Pi: Cybersecurity Edition**
 Learn about cybersecurity hands-on and with the raspberry pi
 
-
-
-
 ## Table of Contents:
 
 [Introduction](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro())
 
 
-1. Chapter 1: Raspberry Pi Shopping List [link](*https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/blob/main/001-raspberry-pi-shopping-list/README.md)
+1. [Chapter 1: Raspberry Pi Shopping List](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/001-raspberry-pi-shopping-list)
 
 2. [Chapter 2: OSX Software](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/002-software-tools-and-tricks)
 
