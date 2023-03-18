@@ -1,4 +1,6 @@
-# Most important Linux Commands
+# Raspberry Pi Linux Commands
+
+![CyberPi](../cyber-pi-github-profile.png)
 
 There are well over 500 different commands for linux, and so we're not going to list them here. This is intended to be a good batch that can get the average user sstarted.
 Here's a list of the most important commands, and what you can do with them.

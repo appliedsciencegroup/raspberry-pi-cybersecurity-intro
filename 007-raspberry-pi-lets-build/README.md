@@ -1,5 +1,7 @@
 #  **QERPI: Secure Guest Wifi Access** 
 
+![CyberPi](../cyber-pi-github-profile.png)
+
 ## <img src="./images/shopping-bag.png" width="24" height="">Shopping List
 You'll need everything from the [getting started shopping list](https://github.com/yalefox/001-raspberry-pi-shopping-list) plus this:
 

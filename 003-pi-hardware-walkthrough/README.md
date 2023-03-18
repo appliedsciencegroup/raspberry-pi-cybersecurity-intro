@@ -1,5 +1,8 @@
 # Hardware Walkthrough
-The Raspberry Pi is a fully working, credit card sized computer. Before we dive in, it's important to know all the different parts, and what they do.
+![CyberPi](../cyber-pi-github-profile.png)  
+The Raspberry Pi is a fully working, credit card sized computer. Before we dive in, it's important to know all the different parts, and what they do.  
+
+
 
 ## Raspberry Pi - Hardware
 - Hardware

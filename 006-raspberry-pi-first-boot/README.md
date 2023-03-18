@@ -1,4 +1,8 @@
 # 004 - Raspberry Pi First Boot
+
+![CyberPi](../cyber-pi-github-profile.png)
+
+
 There's lots of different ways to get a Raspberry Pi up and running. We're going to do a 'headless' installation. That means you don't need to connect it to a monitor, mouse or keyboard. We'll be using two network protocols called `SSH` and `VLC` for this one. These are two different ways for sending information over the network.
 
 - `Network Protocols` are special formats that computers understand to send and receive information.
