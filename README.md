@@ -1,7 +1,9 @@
+![CyberPi](/cyber-pi-github-profile.png)]
+
 # Raspberry Pi: Cybersecurity Edition
 Learn about cybersecurity hands-on and with the raspberry pi
 
-![CyberPi](/cyber-pi-github-profile.png)]
+
 
 
 ## Table of Contents:
