@@ -1,7 +1,7 @@
 # Raspberry Pi: Cybersecurityy Edition
 Learn about cybersecurity with the Raspberry Pi, with code and instructions made for kids 12 and up.
 
-![CyberPi}(/cyber-pi-github-profile.png)]
+![CyberPi](/cyber-pi-github-profile.png)]
 
 
 ## Table of Contents:
