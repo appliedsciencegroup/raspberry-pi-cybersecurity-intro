@@ -6,15 +6,19 @@ The first thing you'll have to do is get everything you need together. We've mad
 
 Whenever possible! Please try to buy this from Adafruit. They developed all the IP behind Raspberry Pi, and are a great organization to support!
 
-### <img src="./images/hardware-64.png" width="20" height="">  **Hardware**
+## **Hardware**
 
-1. Raspberry Pi 3 Model B+&nbsp; • &nbsp; <ins>[Raspberry Pi 3 - Model B+ - 1.4GHz Cortex-A53 with 1GB RAM](https://www.adafruit.com/product/3775)</ins>&nbsp; • &nbsp;[ [Adafruit](https://www.adafruit.com/) ]
-> Note that the latest version is the Raspberry Pi 4. This upgrade looks great! But they're still working some of the bugs out, so we're not going to use it just yet.
+1. [Raspberry Pi 4](https://www.adafruit.com/product/4296) or Raspberry Pi 3 B+
+This is the SBC (single board computer) that we are using for this project.
+
 <img src="./images/raspberry-pi-3bplus.png" width="200" height="150">
 
-2. MicroSD Card. &nbsp; • &nbsp; <ins>[SanDisk Extreme Pro](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN)</ins>&nbsp; • &nbsp;[ [Amazon](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN) ]
-> The MicroSD card works for your Raspberry Pi in the same way that a hard drive does for your computer. They are priced differently mainly based on size, rather than speed. Since you don't need a lot of storage, we recommend buying a fast card (Class 10, U3) and between 8GB to 32GB.
+2. [32GB MicroSD Card](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN) 
+The MicroSD card works for your Raspberry Pi in the same way that a hard drive does for your computer. They are priced differently mainly based on size, rather than speed. Since you don't need a lot of storage, we recommend buying a fast card (Class 10, U3) and between 8GB to 32GB.
 <img src="./images/sandisk-extreme-pro-32gb.png" width="200" height="150">
+
+
+
 
 3. Micro-USB Power Supply &nbsp; • &nbsp;<ins>[5V 2.5A Switching Power Supply with 20AWG MicroUSB Cable](https://www.adafruit.com/product/1995)</ins>&nbsp; • &nbsp; [ [Adafruit](https://www.adafruit.com/) ]
 > You need a power supply that can run 5 volts at 2 amps, so look for one that says 5V @ 2A. 
