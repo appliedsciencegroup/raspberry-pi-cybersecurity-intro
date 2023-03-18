@@ -1,6 +1,6 @@
-![CyberPi](/cyber-pi-github-profile.png)]
+![CyberPi](/cyber-pi-github-profile.png)
 
-# Raspberry Pi: Cybersecurity Edition
+**Raspberry Pi: Cybersecurity Edition**
 Learn about cybersecurity hands-on and with the raspberry pi
 
 
