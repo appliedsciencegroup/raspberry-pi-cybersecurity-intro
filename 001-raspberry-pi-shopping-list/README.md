@@ -1,83 +1,41 @@
 # Learn to Pi - Shopping List
+Here is a list of hardware that you need to order to follow along with the tutorial, as well as any software that you may need. We try to use open source as much as possible.
 
-![learn](https://bitbucket.org/yalewtf-projects/001-raspberry-pi-shopping-list/raw/932f23e9aee4c97dbe0958251421218aad0bf7c6/images/shopping-bag.png)
+![CyberPi](../cyber-pi-github-profile.png)
 
-The first thing you'll have to do is get everything you need together. We've made a brief shopping list to help you figure out what you need, and included some links for good quality, reasonably priced options.
+## 🖥️ Hardware
+Here is a list of hardware you will need to have on hand, as well as links to where you can buy it.  
+All of these links are for the most basic, entry level equipment.
 
-Whenever possible! Please try to buy this from Adafruit. They developed all the IP behind Raspberry Pi, and are a great organization to support!
+1. [Raspberry Pi 4](https://www.adafruit.com/product/4296) or [Raspberry Pi 3 B+](https://www.amazon.com/ELEMENT-Element14-Raspberry-Pi-Motherboard/dp/B07P4LSDYV)
+This is the SBC (single board computer) that we are using for this project. Note that this tutorial was written for the Raspberry Pi 3B+, but it also works with the Raspberry Pi 4.
 
-## **Hardware**
-
-- [Raspberry Pi 4](https://www.adafruit.com/product/4296) or Raspberry Pi 3 B+
-
-This is the SBC (single board computer) that we are using for this project.
-<img src="./images/raspberry-pi-3bplus.png" width="200" height="150">
-
-- [32GB MicroSD Card](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN) 
+2. [32GB MicroSD Card](https://www.amazon.com/dp/B06XYHN68L/ref=cm_sw_em_r_mt_dp_U_WBkwDbG26G3PN)   
 The MicroSD card works for your Raspberry Pi in the same way that a hard drive does for your computer. They are priced differently mainly based on size, rather than speed. Since you don't need a lot of storage, we recommend buying a fast card (Class 10, U3) and between 8GB to 32GB.
-<img src="./images/sandisk-extreme-pro-32gb.png" width="200" height="150">
 
+3. [USB-C Power Adapter](https://www.adafruit.com/product/4298)  
+You need a power supply that can run 5 volts at 2 amps, so look for one that says 5V @ 2A. 
 
+4. [Ethernet Patch Cable](https://www.amazon.com/dp/B06XY1KH9W/ref=cm_sw_em_r_mt_dp_U_HkXwDb06PJS8B)  
+Some of these projects need to be plugged directly in to your router. You can probably get away with any old cable, but if possible get one that's at least Category7 (Cat 7). These provide a faster, more reliable connection.
 
+5. [Micro-SD card Reader/Writer](https://www.amazon.com/Celnex-MicroSD-MicreSD-MicroSDHC-MicroSDXC/dp/B092HSLL9R/ref=sr_1_3?crid=3O945YZZ1RONE&keywords=micro-SD+reader+writer&qid=1679152744&s=electronics&sprefix=micro-sd+reader+writer%2Celectronics%2C72&sr=1-3)  
+You'll need to write the Raspian operating system to the SD card to get started. 
 
+6. [3.5" Touchscreen + Case](https://www.amazon.com/Celnex-MicroSD-MicreSD-MicroSDHC-MicroSDXC/dp/B092HSLL9R/ref=sr_1_3?crid=3O945YZZ1RONE&keywords=micro-SD+reader+writer&qid=1679152744&s=electronics&sprefix=micro-sd+reader+writer%2Celectronics%2C72&sr=1-3)  
+You will want to have a compatible 3.5" LCD touchscreen as well as a protective cavse
 
+## 💾 Software
 
+1. [Raspberry Pi Imager](https://www.raspberrypi.com/software/)  
+This is the software that will be used to write to your SD cards. It will also present you with various different operating systems that you can experiment with.
 
+2. [Sublime Text 4](https://www.raspberrypi.com/software/)  
+or any other text editor such as [VS Code](https://code.visualstudio.com/)
 
-3. Micro-USB Power Supply &nbsp; • &nbsp;<ins>[5V 2.5A Switching Power Supply with 20AWG MicroUSB Cable](https://www.adafruit.com/product/1995)</ins>&nbsp; • &nbsp; [ [Adafruit](https://www.adafruit.com/) ]
-> You need a power supply that can run 5 volts at 2 amps, so look for one that says 5V @ 2A. 
-<img src="./images/micro-usb-5v-2a-power-supply.png" width="200" height="150">
+3. [Github Desktop](https://desktop.github.com/)  
+This is a GUI (graphical user interface) if you want to use git but are still getting used to the command line. 
 
-4. Ethernet Patch Cable (Cat7)&nbsp; • &nbsp; <ins>[ CAT7 Flat Ethernet Cable Shielded RJ45](https://www.amazon.com/dp/B06XY1KH9W/ref=cm_sw_em_r_mt_dp_U_HkXwDb06PJS8B)</ins>&nbsp; • &nbsp;[ [Amazon](https://www.amazon.com/dp/B06XY1KH9W/ref=cm_sw_em_r_mt_dp_U_HkXwDb06PJS8B) ] 
-> Some of these projects need to be plugged directly in to your router. You can probably get away with any old cable, but if possible get one that's at least Category7 (Cat 7). These provide a faster, more reliable connection.
-<img src="./images/cat7-ethernet-cable.png" width="200" height="150">
-
-5. Micro-SD Card Reader/Writer&nbsp; • &nbsp; <ins>[USB 3.0 Dual Slot Flash Memory Card Reader](https://www.amazon.com/dp/B01EFPX9XA/ref=cm_sw_em_r_mt_dp_U_joXwDb4HDCB64)</ins>&nbsp; • &nbsp;[ [Amazon](https://www.amazon.com/dp/B01EFPX9XA/ref=cm_sw_em_r_mt_dp_U_joXwDb4HDCB64) ] 
-> You'll need to write the Raspian operating system to the SD card to get started. It's worth getting one that's reasonable fast too.
-
-<img src="./images/microsd-reader-writer.png" width="200" height="150">
-
-
-### <img src="./images/optional-64.png" width="20" height="">  **Optional**
-
-1. Raspberry Pi Kit&nbsp; • &nbsp; <ins>[CanaKit Raspberry Pi 3 B+ (B Plus) with Premium Clear Case and 2.5A Power Supply](https://www.amazon.com/dp/B07BC7BMHY/ref=cm_sw_em_r_mt_dp_U_yvXwDbQHNPTE4)</ins>&nbsp; • &nbsp;[ [Amazon](https://www.amazon.com/dp/B07BC7BMHY/ref=cm_sw_em_r_mt_dp_U_yvXwDbQHNPTE4) ] 
-> You can get lots of the above items in a package, such as this one from CannaKit. This comes with your Raspberry Pi 3 B+, power supply, case, and a few other items.
-<img src="./images/cannakit-raspberry-pi-3bplus-kit.png" width="200" height="150">
-
-2. Case&nbsp; • &nbsp; <ins>[Raspberry Pi 3 Case - Black/Grey](https://www.amazon.com/dp/B01F1PSFY6/ref=cm_sw_em_r_mt_dp_U_fyXwDbSTP5RY4)</ins>&nbsp; • &nbsp;[ [Amazon](https://www.amazon.com/dp/B01F1PSFY6/ref=cm_sw_em_r_mt_dp_U_fyXwDbSTP5RY4) ] 
-> This is a good simple case to keep your Raspberry Pi protected
-<img src="./images/raspberry-pi-3bplus-case.png" width="200" height="150">
-
-3. U2F Security Key&nbsp; • &nbsp;<ins>[HyperFIDO U2F USB Security Key](https://www.hypersecu.com/products/hyperfido)</ins>&nbsp; • &nbsp;[ [Amazon](https://www.amazon.com/dp/B07HKP5J4L/ref=cm_sw_em_r_mt_dp_U_jCkwDbG69MDRV) ]
->For our section on Cybersecurity, we recommend you pick one of these up. You'll find them to be one of the most useful devices, that saves you time.
-<img src="./images/hyperfido-u2f-security-key.png" width="200" height="150">
-
-### <img src="./images/software-64.png" width="20" height="">  **Software**
-
-5. Balena Etcher&nbsp; • &nbsp;<ins>[Balena](https://www.balena.io/etcher/)</ins>
->You're going to need to use this to burn the Raspian OS to your microSD card.
-
-<img src="./images/balena-etcher.png" width="600" height="">
-
-6. RaspianOS&nbsp; • &nbsp;<ins>[RaspberryPi.org](https://www.raspberrypi.org/downloads/raspbian/)</ins>
->Download the latest version (as of August 19th, 2019) is called BUSTER. Get the one with desktop and recommended software to start.
-
-<img src="./images/raspian-os-screenshot.png" width="500" height="">
-
-7. Sublime Text 3&nbsp; • &nbsp;<ins>[Sublime Text](https://www.sublimetext.com/3)</ins>
->This is a text editor used specifically for programming. It's highly recommended that you use this one, but there are other similar ones around. Don't use the text editor that came with your computer, it sometimes adds extra characters that make files unusable.
-
-<img src="./images/sublime-text-3-screenshot.png" width="500" height="">
-
-8. Github Desktop&nbsp; • &nbsp;<ins>[GitHub Desktop](https://desktop.github.com)</ins>
->Lots of people like to use Git through the command line. To make things easy to follow along with, we're going to use the desktop version.
-
-<img src="./images/github-desktop.png" width="500" height="">
-
-9. LanScan&nbsp; • &nbsp;<ins>[Iwaxx](https://www.iwaxx.com/lanscan/)</ins>
->This app will help you see what devices are currently connected to your network, and their IP Addresses.
-
-<img src="./images/lanscan.png" width="500" height="">
-
-
+4. [LanScan](https://www.iwaxx.com/lanscan/)  
+This is a free version of an app that will help you see what else is connected to your network
 
