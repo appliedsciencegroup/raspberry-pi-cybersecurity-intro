@@ -7,6 +7,17 @@ Learn about cybersecurity hands-on and with the raspberry pi
 - Raspberry Pi
 - Cybersecurity Basics (around Wifi password reuse)
 
+## Table of Contents
+This repository is a way for 
+
+
+1. https://github.com/appliedsciencegroup/qerpi-raspberry-pi-cybersecurity-intro
+2. https://github.com/appliedsciencegroup/qerpi
+3. https://github.com/appliedsciencegroup/qerpi-alexa-skill
+4. https://github.com/appliedsciencegroup/qerpi-speed-testing
+
+
+
 
 ## Table of Contents:
 Welcome to this tutorial! Here is a brief outline of what you will learn by the end of it.
