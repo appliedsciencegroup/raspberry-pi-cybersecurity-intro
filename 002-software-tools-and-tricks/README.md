@@ -1,16 +1,47 @@
 # 💾 Software
 ![CyberPi](../cyber-pi-github-profile.png)
-
 This tutorial is **optional** but highly recommended! It covers the ways to theme and stylize your terminal and text editor -- the two most important tools in your arsenal!
+
+## Table of Contents
+In this document, you will learn how to:
+
+- Installing Homebrew
+- Installing Python and Pip
+- Using the Man and Help Commands
+- Customizing the macOS Terminal with Themes & Plugins
+- Installing Sublime Text 4
+- Adding Sublime Packages
+
+## Installing Homebrew
+Homebrew is a package manager for macOS that will come in handy throughout this tutorial.
+
+1. Open the Terminal app on your Mac. You can find it in the Utilities folder within the Applications folder or use Spotlight Search to find it.  
+2. In the Terminal window, paste the following command and press Enter:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```  
+
+3. The installation script will start running, and you will be prompted to enter your password. This is the password you use to log in to your Mac. Type it in and press Enter.
+4. The installation script will then download and install Homebrew on your Mac. This process may take several minutes, depending on your internet connection speed.
+5. Once the installation is complete, you can test that Homebrew is installed by typing the following command in the Terminal window and pressing Enter:  
+
+```bash
+brew --version
+```  
+
+6. Homebrew is installed correctly, the version number should be displayed in the Terminal window.
+
+That's it! Homebrew is now installed on your Mac, and you can use it to install a wide variety of command-line tools and software packages.
 
 
 ## Setting up your Terminal on macOS
-The terminal for macOS is a command-line interface that provides access to the underlying operating system of a Mac computer. It allows users to execute a variety of commands, such as running scripts, managing files and directories, installing packages and applications, and controlling system settings. In other words, the terminal serves as a powerful tool for users who want to interact with their computer in a more direct and precise way. It can be particularly useful for developers, system administrators, and power users who need to perform complex tasks quickly and efficiently.
+The terminal for macOS is a command-line interface that provides access to the underlying operating system of a Mac computer. It allows users to execute various commands, such as running scripts, managing files and directories, installing packages and applications, and controlling system settings. In other words, the terminal serves as a powerful tool for users who want to interact with their computer in a more direct and precise way. It can be particularly useful for developers, system administrators, and power users who need to perform complex tasks quickly and efficiently.
 
+### Commonly used commands
+The macOS terminal is what allows you to interact with the Operating System.
+The most important commands to know are in the table below, especially the man command.
 
-## macOS Terminal
-The macOS terminal is what allows you to interact with the Operating System.  
-The most important commands to know are in the table below, in particular the `man` command
 
 | Command |             Description             |
 |---------|-------------------------------------|
@@ -25,7 +56,8 @@ The most important commands to know are in the table below, in particular the `m
 | `man`   | Display manual pages for a command  |
 | `pwd`   | Print the current working directory |   
 
-Each of those commands allows for different "arguments" (also known as flags). For example with the `rm` command
+### Command-line arguments  
+Each of those commands allows for different "arguments" (also known as flags). For example, with the rm command:
 
 |           Flag           |                                Description                                 |
 |--------------------------|----------------------------------------------------------------------------|
@@ -36,8 +68,8 @@ Each of those commands allows for different "arguments" (also known as flags). F
 | `rm -v [file/directory]` | Verbose output, prints the name of each file or directory as it is removed |
 | `rm -d [directory]`      | Remove an empty directory                                                  |
 
-> **⚠️ Note:** It is worth taking some time to learn what the **man** and **help** commands do.   
 
+### ⚠️ Using the **man** and **help** commands.  
 The man command and help command are like instruction manuals for how to use different commands on a computer. man shows instructions for commands that are built into the computer system, while help shows instructions for commands that you can use in the command line.
 
 | Command |         Flag        |                     Description                      |
@@ -50,53 +82,37 @@ The man command and help command are like instruction manuals for how to use dif
 | help    | `help [command]`    | Display information about a specific shell command   |
 | help    | `help -m [command]` | Display the manual page for a specific shell command |
 
-## Installing Homebrew
-Homebrew is a package manager for macOS that will come in handy throughout this tutorial.
 
-1. Open the Terminal app on your Mac. You can find it in the Utilities folder within the Applications folder, or use Spotlight Search to find it.  
-2. In the Terminal window, paste the following command and press Enter:  
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```  
-
-3. The installation script will start running, and you will be prompted to enter your password. This is the password you use to log in to your Mac. Type it in and press Enter.
-4. The installation script will then download and install Homebrew on your Mac. This process may take several minutes, depending on your internet connection speed.
-5. Once the installation is complete, you can test that Homebrew is installed by typing the following command in the Terminal window and pressing Enter:
-
-```bash
-brew --version
-```
-6. Homebrew is installed correctly, the version number should be displayed in the Terminal window.
-
-That's it! Homebrew is now installed on your Mac, and you can use it to install a wide variety of command-line tools and software packages.
-
-
-### Adding Plugins & Themes to Terminal
+## Customizing the macOS Terminal with Themes & Plugins
 The terminal is better when you stylize it! 
 
-**Changing the Theme**
+**Changing Themes**
 1. Open the Terminal app on your Mac. You can find it in the Utilities folder within the Applications folder, or use Spotlight Search to find it.
-2. In the menu bar at the top of the screen, click on Terminal > Preferences. Alternatively, you can use the keyboard shortcut `Command + ,` to open the preferences window.
-3. In the Preferences window, click on the `Profiles` tab.
+2. In the menu bar at the top of the screen, click on Terminal > Preferences. Alternatively, you can use the keyboard shortcut Command + , to open the preferences window.
+3. In the Preferences window, click on the Profiles tab.
 4. Select the profile that you want to change the theme for by clicking on it in the list on the left-hand side of the window.
+5. On the right-hand side of the window, you can customize the theme by changing the text, background, and cursor colors, as well as the font style and size. You can also choose from several built-in themes by clicking on the "Color Presets" dropdown menu.
+6. Once you've made your desired changes, close the Preferences window. Your new theme will be applied to the Terminal.
 
 **Adding Terminal Plugins**
 
 1. Install [Zsh4Humans](https://github.com/romkatv/zsh4humans) by running `brew install zsh4humans` in the terminal
 2. Install [Powerlevel10K](https://github.com/romkatv/powerlevel10k) by entering `brew install romkatv/powerlevel10k/powerlevel10k` into your terminal
 3. Add **Powerlevel10K** to your shell configuration, so it's easier to use `echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc`
+4. Restart your terminal or run source ~/.zshrc for the changes to take effect.
+
 
 ## Sublime Text 4
-Next we are going to install a simple text editor
+Next, we are going to install a simple text editor for working with Raspberry Pi and cybersecurity projects.
 
 1. Go to [Sublime Text 4](https://www.sublimetext.com/download) to [download](https://www.sublimetext.com/download) the latest version
 2. In Sublime click View > Show Console
 3. Paste the code from Package Control (also below) into console and press Enter
 
-```
+```python
 import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
+
 **Adding Sublime Packages**
 Let's install our first package, the [Dracula Theme](https://draculatheme.com/). To do this
 
