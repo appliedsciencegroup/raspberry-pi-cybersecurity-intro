@@ -33,3 +33,6 @@ Here we're going to build an Amazon Alexa skill, so you can ask your alexa for t
 Since we are plugging the Raspberry Pi directly into your router, and there are limitations on the ethernet link speed -- here we do some quick testing and debugging
 
 ### Pi-Hard
+This is a bit more of an advanced tutorial, on how to harden (securely lock down) a Raspberry Pi.There are different modes
+
+7. https://github.com/appliedsciencegroup/pi-hard
