@@ -4,44 +4,32 @@
 Learn about cybersecurity hands-on and with the raspberry pi
 
 ## What are we learning?
-- Raspberry Pi
-- Cybersecurity Basics (around Wifi password reuse)
+
 
 ## Table of Contents
-This repository is a way for 
+This tutorial is meant for beginners to get their feet wet with the Raspberry Pi, Wireless Networking, and some cybersecurity basics. Some of the topics include.
 
 
-1. https://github.com/appliedsciencegroup/qerpi-raspberry-pi-cybersecurity-intro
-2. https://github.com/appliedsciencegroup/qerpi
-3. https://github.com/appliedsciencegroup/qerpi-alexa-skill
-4. https://github.com/appliedsciencegroup/qerpi-speed-testing
+### Getting Started with Raspberry Pi
 
+1. [Raspberry Pi Shopping List](/001-raspberry-pi-shopping-list/README.md)
+A list of materials you will need, and where to get them.  
 
+2. [Text Editor & Terminal Customization](/002-text-editor-and-terminal-configuration/README.md)
+How to configure your two most important tools; the text editor and the terminal.
 
+3. [Raspberry Pi First Boot](/003-raspberry-pi-first-boot/README.mnd)
+Getting your device started up as headless (without a monitor).
 
-## Table of Contents:
-Welcome to this tutorial! Here is a brief outline of what you will learn by the end of it.
+### Building Your First Application
+4. https://github.com/appliedsciencegroup/qerpi
+We're going to build QERPI, a small raspberry pi with an LCD that generates a temporary guest wifi network, with a new password every day. Your friends and coworkers can simply scan the QR code and you'll be connected to wifi for the day.
 
-1. [Chapter 1: Raspberry Pi Shopping List](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/001-raspberry-pi-shopping-list)  
-	- You will find a shopping list of all the hardware needed for the tutorial.
-	- There will also be a link to any software that you need to download.
+### Building an Alexa Skill
+5. https://github.com/appliedsciencegroup/qerpi-alexa-skill
+Here we're going to build an Amazon Alexa skill, so you can ask your alexa for the wifi password and it shows you a QR code.
 
-2. [Chapter 2: OSX Software](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/002-software-tools-and-tricks)  
-	- Learn how to enhance the terminal experience on Mac by running common commands, adding plugins, and modifying themes.
-	- Learn how to use Package Manager in Sublime Text 3 to install and use useful plugins for working with Markdown.
+6. https://github.com/appliedsciencegroup/qerpi-speed-testing
+Since we are plugging the Raspberry Pi directly into your router, and there are limitations on the ethernet link speed -- here we do some quick testing and debugging
 
-
-3. [Chapter 3: Harwdware Walkthrough](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/003-pi-hardware-walkthrough)  
-	- Learn how to
-
-4. [Chapter 4: Operating System Walkthrough](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/004-operating-system-walkthrough)  
-	- Learn how to
-
-5. [Chapter 5: Linux Commands](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/005-raspberry-pi-linux-commands)  
-	- Learn how to
-
-6. [Chapter 6: Raspberry Pi First Boot](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/006-raspberry-pi-first-boot)  
-	- Learn how to
-
-7. [Chapter 7: Raspberry Pi - Let's Build](https://github.com/appliedsciencegroup/raspberry-pi-cybersecurity-intro/tree/main/007-raspberry-pi-lets-build)  
-	- Learn how to
+### Pi-Hard

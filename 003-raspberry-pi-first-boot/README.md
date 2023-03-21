@@ -1,4 +1,4 @@
-# 004 - Raspberry Pi First Boot (Headless)
+# 003 - Raspberry Pi First Boot (Headless)
 ![CyberPi](../cyber-pi-github-profile.png)
 
 In this tutorial, we will be setting up a Raspberry Pi in a "headless" configuration, which means that you won't need to connect it to a monitor, mouse, or keyboard. Instead, we'll be using two network protocols: SSH and VNC, for securely transmitting text and video information, respectively.

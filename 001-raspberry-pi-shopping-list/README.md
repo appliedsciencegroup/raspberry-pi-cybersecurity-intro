@@ -31,11 +31,11 @@ You will want to have a compatible 3.5" LCD touchscreen as well as a protective 
 This is the software that will be used to write to your SD cards. It will also present you with various different operating systems that you can experiment with.
 
 2. [Sublime Text 4](https://www.raspberrypi.com/software/)  
-or any other text editor such as [VS Code](https://code.visualstudio.com/)
+Or you can use any other text editor such as [VS Code](https://code.visualstudio.com/).
 
 3. [Github Desktop](https://desktop.github.com/)  
 This is a GUI (graphical user interface) if you want to use git but are still getting used to the command line. 
 
 4. [LanScan](https://www.iwaxx.com/lanscan/)  
-This is a free version of an app that will help you see what else is connected to your network
+This is a free version of an app that will help you see what devices are connected to your network.
 
